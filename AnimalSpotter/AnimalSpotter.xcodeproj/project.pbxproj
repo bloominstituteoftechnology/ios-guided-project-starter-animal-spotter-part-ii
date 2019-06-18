@@ -17,6 +17,7 @@
 		CEFFEF5F22B98E3F00A646FB /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEF5E22B98E3F00A646FB /* Animal.swift */; };
 		CEFFEF6122B98E4600A646FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEF6022B98E4600A646FB /* User.swift */; };
 		CEFFEF6322B98E5200A646FB /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEF6222B98E5200A646FB /* Bearer.swift */; };
+		CEFFEF6522B99AE000A646FB /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEF6422B99AE000A646FB /* AnimalDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CEFFEF5E22B98E3F00A646FB /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		CEFFEF6022B98E4600A646FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEFFEF6222B98E5200A646FB /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
+		CEFFEF6422B99AE000A646FB /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		CEDCA5982266967E009EA535 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CEDCA58E22668BCF009EA535 /* AnimalsTableViewController.swift */,
 				CEDCA59022668D0F009EA535 /* LoginViewController.swift */,
+				CEDCA58E22668BCF009EA535 /* AnimalsTableViewController.swift */,
+				CEFFEF6422B99AE000A646FB /* AnimalDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				CEFFEF6322B98E5200A646FB /* Bearer.swift in Sources */,
 				CEDCA57B22668AB2009EA535 /* AppDelegate.swift in Sources */,
 				CEDCA58F22668BCF009EA535 /* AnimalsTableViewController.swift in Sources */,
+				CEFFEF6522B99AE000A646FB /* AnimalDetailViewController.swift in Sources */,
 				CEFFEF5F22B98E3F00A646FB /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
