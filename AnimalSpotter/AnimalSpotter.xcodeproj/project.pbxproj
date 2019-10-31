@@ -14,7 +14,6 @@
 		CEDCA58F22668BCF009EA535 /* AnimalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA58E22668BCF009EA535 /* AnimalsTableViewController.swift */; };
 		CEDCA59122668D0F009EA535 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA59022668D0F009EA535 /* LoginViewController.swift */; };
 		CEDCA59A226697BD009EA535 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA599226697BD009EA535 /* APIController.swift */; };
-		CEFFEF5F22B98E3F00A646FB /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEF5E22B98E3F00A646FB /* Animal.swift */; };
 		CEFFEF6122B98E4600A646FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEF6022B98E4600A646FB /* User.swift */; };
 		CEFFEF6322B98E5200A646FB /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEF6222B98E5200A646FB /* Bearer.swift */; };
 		CEFFEF6522B99AE000A646FB /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFEF6422B99AE000A646FB /* AnimalDetailViewController.swift */; };
@@ -30,7 +29,6 @@
 		CEDCA58E22668BCF009EA535 /* AnimalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewController.swift; sourceTree = "<group>"; };
 		CEDCA59022668D0F009EA535 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEDCA599226697BD009EA535 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
-		CEFFEF5E22B98E3F00A646FB /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		CEFFEF6022B98E4600A646FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEFFEF6222B98E5200A646FB /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
 		CEFFEF6422B99AE000A646FB /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 		CEDCA5962266966C009EA535 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CEFFEF5E22B98E3F00A646FB /* Animal.swift */,
 				CEFFEF6022B98E4600A646FB /* User.swift */,
 				CEFFEF6222B98E5200A646FB /* Bearer.swift */,
 			);
@@ -184,7 +181,6 @@
 				CEDCA57B22668AB2009EA535 /* AppDelegate.swift in Sources */,
 				CEDCA58F22668BCF009EA535 /* AnimalsTableViewController.swift in Sources */,
 				CEFFEF6522B99AE000A646FB /* AnimalDetailViewController.swift in Sources */,
-				CEFFEF5F22B98E3F00A646FB /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
