@@ -191,16 +191,27 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SGM-PF-YGA">
+                                <rect key="frame" x="50" y="364.5" width="314" height="314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SGM-PF-YGA" secondAttribute="height" multiplier="1:1" id="qvG-wW-b40"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="8ed-ZD-BEg" firstAttribute="top" secondItem="n5d-vv-46O" secondAttribute="top" constant="20" id="B6l-Q0-igt"/>
                             <constraint firstItem="n5d-vv-46O" firstAttribute="trailing" secondItem="8ed-ZD-BEg" secondAttribute="trailing" constant="20" id="EJK-gB-LSz"/>
                             <constraint firstItem="8ed-ZD-BEg" firstAttribute="leading" secondItem="n5d-vv-46O" secondAttribute="leading" constant="20" id="HqF-Nm-807"/>
+                            <constraint firstItem="SGM-PF-YGA" firstAttribute="centerX" secondItem="MBC-pg-VRX" secondAttribute="centerX" id="Yj8-yY-pdq"/>
+                            <constraint firstItem="n5d-vv-46O" firstAttribute="trailing" secondItem="SGM-PF-YGA" secondAttribute="trailing" constant="50" id="ZAk-h4-iei"/>
+                            <constraint firstItem="SGM-PF-YGA" firstAttribute="leading" secondItem="n5d-vv-46O" secondAttribute="leading" constant="50" id="dro-CT-yrB"/>
+                            <constraint firstItem="SGM-PF-YGA" firstAttribute="top" secondItem="8ed-ZD-BEg" secondAttribute="bottom" constant="50" id="uuQ-rc-5TK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="n5d-vv-46O"/>
                     </view>
                     <connections>
+                        <outlet property="animalImageView" destination="SGM-PF-YGA" id="6nQ-kA-y5d"/>
                         <outlet property="coordinatesLabel" destination="5j3-xy-Emh" id="4Td-2g-guF"/>
                         <outlet property="descriptionLabel" destination="mcC-Xt-fEK" id="2ai-0h-TgD"/>
                         <outlet property="timeSeenLabel" destination="ziV-D5-h04" id="6Pq-PR-n7p"/>
