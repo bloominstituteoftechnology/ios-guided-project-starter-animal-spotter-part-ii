@@ -13,7 +13,6 @@ class AnimalsTableViewController: UITableViewController {
     // MARK: - Properties
     
     private var animalNames: [String] = []
-    
     let apiController = APIController()
     
     // MARK: - View Lifecycle

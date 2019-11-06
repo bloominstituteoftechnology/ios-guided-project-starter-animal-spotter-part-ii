@@ -14,14 +14,6 @@ enum HTTPMethod: String {
     case post = "POST"
 }
 
-enum NetworkError: Error {
-    case noAuth
-    case badAuth
-    case otherError
-    case badData
-    case noDecode
-}
-
 class APIController {
     
     private let baseUrl = URL(string: "https://lambdaanimalspotter.vapor.cloud/api")!
@@ -56,7 +48,7 @@ class APIController {
             }
             
             completion(nil)
-            }.resume()
+        }.resume()
     }
     
     func signIn(with user: User, completion: @escaping (Error?) -> ()) {
@@ -106,6 +98,8 @@ class APIController {
     }
     
     // create function for fetching all animal names
+    
+    // create function for fetching a specific animal
     
     // create function to fetch image
 }
