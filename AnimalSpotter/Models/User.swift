@@ -2,8 +2,8 @@
 //  User.swift
 //  AnimalSpotter
 //
-//  Created by Ben Gohlke on 4/16/19.
-//  Copyright © 2019 Lambda School. All rights reserved.
+//  Created by Scott Gardner on 4/4/20.
+//  Copyright © 2020 Lambda School. All rights reserved.
 //
 
 import Foundation
